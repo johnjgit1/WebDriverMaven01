@@ -25,8 +25,8 @@ public class LoginTest {
 		driver.findElement(By.id("Email")).sendKeys("trainer@way2automation.com");
 		driver.findElement(By.id("Passwd")).sendKeys("abdc");
 		
-		// new code after first push to local first and then Github 10-25-14; so first do a committ;
-		driver.findElement(By.id("SignIn")).click();
+		// new code after first push to local first and then Github 10-25-14; so first do a commit;
+		driver.findElement(By.id("signIn")).click();
 		
 	}
 	@AfterSuite 
